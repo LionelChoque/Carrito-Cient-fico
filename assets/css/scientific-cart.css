@@ -1,0 +1,26 @@
+/* Estilos base - los estilos principales están en class-cart-customizer.php */
+.wc-scientific-cart-loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.animate-spin {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.wc-scientific-tooltip {
+    position: absolute;
+    background: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    z-index: 1000;
+    max-width: 200px;
+    word-wrap: break-word;
+}
