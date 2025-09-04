@@ -1,4 +1,4 @@
-?>
+
 <?php if (!defined('ABSPATH')) exit; ?>
 
 <h3><?php _e('Información Científica', 'wc-scientific-cart'); ?></h3>
@@ -47,4 +47,4 @@
         </td>
     </tr>
 </table>
-?>
+

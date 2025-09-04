@@ -40,7 +40,7 @@ jQuery(document).ready(function($) {
             url: wc_scientific_cart_ajax.ajax_url,
             type: 'POST',
             data: {
-                action: 'request_quote',
+                action: 'wc_scientific_cart_request_quote',
                 nonce: wc_scientific_cart_ajax.nonce
             },
             success: function(response) {
