@@ -1,4 +1,3 @@
-?>
 <?php if (!defined('ABSPATH')) exit; ?>
 
 <div class="scientific-quote-section">
@@ -30,5 +29,3 @@
         <?php echo esc_html($button_text); ?>
     </button>
 </div>
-
-<?php

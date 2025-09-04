@@ -68,10 +68,11 @@ function wc_scientific_cart_includes() {
     require_once WC_SCIENTIFIC_CART_PLUGIN_PATH . 'includes/functions.php';
     
     // Clases principales
-    require_once WC_SCIENTIFIC_CART_PLUGIN_PATH . 'includes/class-main.php';
-    require_once WC_SCIENTIFIC_CART_PLUGIN_PATH . 'includes/class-cart-customizer.php';
+    // 
     require_once WC_SCIENTIFIC_CART_PLUGIN_PATH . 'includes/class-erp-integration.php';
-    require_once WC_SCIENTIFIC_CART_PLUGIN_PATH . 'includes/class-ajax-handler.php';
+    require_once WC_SCIENTIFIC_CART_PLUGIN_PATH . 'includes/class-ajax-handler.php';    
+    require_once WC_SCIENTIFIC_CART_PLUGIN_PATH . 'includes/class-cart-customizer.php';
+    require_once WC_SCIENTIFIC_CART_PLUGIN_PATH . 'includes/class-main.php';
     
     // Admin (solo en admin)
     if (is_admin()) {

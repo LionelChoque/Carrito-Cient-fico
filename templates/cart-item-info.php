@@ -1,4 +1,4 @@
-?>
+
 <?php if (!defined('ABSPATH')) exit; ?>
 
 <div class="scientific-product-info">
@@ -7,5 +7,3 @@
         <span class="product-sku">SKU: <?php echo esc_html($product_data['sku']); ?></span>
     <?php endif; ?>
 </div>
-
-<?php

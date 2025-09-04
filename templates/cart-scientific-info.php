@@ -1,4 +1,4 @@
-?>
+
 <?php if (!defined('ABSPATH')) exit; ?>
 
 <div class="scientific-info-section">
@@ -29,4 +29,3 @@
     </div>
 </div>
 
-<?php

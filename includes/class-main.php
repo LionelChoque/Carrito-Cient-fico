@@ -83,16 +83,16 @@ class WC_Scientific_Cart_Main {
         // Agregar sección de presupuesto después del carrito
         add_action('woocommerce_after_cart', array($this, 'add_quote_section'));
         
+        // Hook para el action correcto de AJAX
+        add_action('wp_ajax_request_quote', array($this->ajax_handler, 'handle_quote_request'));
+        add_action('wp_ajax_nopriv_request_quote', array($this->ajax_handler, 'handle_quote_request_redirect'));
+
         // Enqueue scripts y styles
         add_action('wp_enqueue_scripts', array($this, 'enqueue_scripts'));
         
         // Agregar header personalizado antes del carrito
         add_action('woocommerce_before_cart', array($this, 'add_cart_header'));
-        
-        // Hook para el action correcto de AJAX
-        add_action('wp_ajax_request_quote', array($this->ajax_handler, 'handle_quote_request'));
-        add_action('wp_ajax_nopriv_request_quote', array($this->ajax_handler, 'handle_quote_request_redirect'));
-        
+         
         // Agregar campos personalizados al perfil de usuario
         add_action('show_user_profile', array($this, 'add_user_fields'));
         add_action('edit_user_profile', array($this, 'add_user_fields'));

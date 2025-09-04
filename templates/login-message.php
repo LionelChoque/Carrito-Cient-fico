@@ -1,4 +1,3 @@
-?>
 <?php if (!defined('ABSPATH')) exit; ?>
 
 <div class="login-message">
@@ -15,5 +14,3 @@
         ); ?>
     </p>
 </div>
-
-<?php

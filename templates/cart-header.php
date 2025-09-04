@@ -1,4 +1,3 @@
-?>
 <?php if (!defined('ABSPATH')) exit; ?>
 
 <div class="scientific-cart-header">
@@ -9,4 +8,3 @@
     <p class="scientific-subtitle"><?php echo esc_html($subtitle); ?></p>
 </div>
 
-<?php
