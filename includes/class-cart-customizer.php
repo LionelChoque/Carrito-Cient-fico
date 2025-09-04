@@ -33,7 +33,7 @@ class WC_Scientific_Cart_Customizer {
         // Hooks del carrito
         add_filter('woocommerce_cart_item_remove_link', array($this, 'customize_remove_link'), 10, 2);
         add_filter('woocommerce_cart_item_quantity', array($this, 'customize_quantity_input'), 10, 3);
-        add_action('woocommerce_cart_coupon', array($this, 'customize_coupon_form()));
+        add_action('woocommerce_cart_coupon', array($this, 'customize_coupon_form'));
         add_action('woocommerce_cart_contents', array($this, 'add_cart_enhancement_features'));
         
         // Hooks de productos
