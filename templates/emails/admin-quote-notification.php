@@ -1,4 +1,3 @@
-?>
 <?php if (!defined('ABSPATH')) exit; ?>
 
 <!DOCTYPE html>
@@ -92,5 +91,3 @@
     </div>
 </body>
 </html>
-
-<?php
